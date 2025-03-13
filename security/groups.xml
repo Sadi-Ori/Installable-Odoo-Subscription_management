@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+        <!-- Subscription Manager Group -->
+        <record id="group_subscription_manager" model="res.groups">
+            <field name="name">Subscription Manager</field>
+            <field name="category_id" ref="base.module_category_sales"/>
+        </record>
+
+        <!-- User Group for Subscription Management -->
+        <record id="group_subscription_user" model="res.groups">
+            <field name="name">Subscription User</field>
+            <field name="category_id" ref="base.module_category_sales"/>
+        </record>
+    </data>
+</odoo>

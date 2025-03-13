@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_subscription_management_user,access.subscription.management.user,model_subscription_management,base.group_user,1,1,1,0
+access_subscription_plan_user,access.subscription.plan.user,model_subscription_plan,base.group_user,1,1,1,0
+access_subscription_product_user,access.subscription.product.user,model_subscription_product,base.group_user,1,1,1,0
+access_subscription_management_manager,access.subscription.management.manager,model_subscription_management,group_subscription_manager,1,1,1,1
+access_subscription_plan_manager,access.subscription.plan.manager,model_subscription_plan,group_subscription_manager,1,1,1,1
+access_subscription_product_manager,access.subscription.product.manager,model_subscription_product,group_subscription_manager,1,1,1,1
